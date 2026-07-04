@@ -2,8 +2,8 @@ public class Guerreiro extends Personagem {
     private int forca;
 
     // Inicializa os dados herdados e o atributo especifico do guerreiro.
-    public Guerreiro(String nome, int nivel, int forca) {
-        super(nome, nivel);
+    public Guerreiro(String nome, int nivel, double poderBase, int forca) {
+        super(nome, nivel, poderBase);
         this.forca = forca;
     }
 

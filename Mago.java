@@ -2,8 +2,8 @@ public class Mago extends Personagem {
     private int inteligencia;
 
     // Inicializa os dados herdados e o atributo especifico do mago.
-    public Mago(String nome, int nivel, int inteligencia) {
-        super(nome, nivel);
+    public Mago(String nome, int nivel, double poderBase, int inteligencia) {
+        super(nome, nivel, poderBase);
         this.inteligencia = inteligencia;
     }
 
